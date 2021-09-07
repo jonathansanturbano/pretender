@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+saintouen:
+  name: Saint-Ouen
+  price_cents: 110
+  user_id: john
+
+aubervilliers:
+  name: Aubervilliers
+  price_cents: 110
+  user_id: john

@@ -1,0 +1,11 @@
+<div class="md:flex justify-center">
+  <%= image_tag "stock_image", alt: "Football Field", class: "object-cover" %>
+  <div class="h-64">
+    <%= form_with model: @terrain, class: "flex flex-col justify-center h-full px-2" do |f| %>
+      <%= f.text_field :name, placeholder: "name", class: "mb-4" %>
+      <%= f.text_field :price_cents, placeholder: "price", class: "mb-4" %>
+      <%= f.file_field :image, class: "mb-4" %>
+      <%= f.submit "Add Field", class: "bg-green-600 px-4 py-2 rounded-sm white w-32 self-center" %>
+    <% end %>
+  </div>
+</div>
